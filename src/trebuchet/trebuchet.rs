@@ -8,7 +8,7 @@ use std::{
 const RADIX: u32 = 10;
 
 pub fn run() {
-    let lines = lines_from_file("trebuchet.txt");
+    let lines = lines_from_file("resources/trebuchet.txt");
     let mut line_numbers: Vec<u32> = Vec::new();
 
     for line in lines {
